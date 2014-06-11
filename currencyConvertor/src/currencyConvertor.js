@@ -44,8 +44,20 @@ rates are retrieved from a backend service and cached for 15 mins.
                         return value.name !== scope.from.name;
                     };
 
+                    scope.getTravelex = function () {
+                        $http.get('/travelex.json').then(function (response) {
+                            var travelexRates = response.data;
+
+                            if (scope.from.name === 'GBP') {
+                                scope.travelex = scope.amount * travelexRates[scope.to.name];
+                            }
+                        });
+                    };
+
                     scope.getExchangeRate = function (from, to) {
                         var url = '/currencyProxy.php?from=' + from + '&to=' + to;
+
+                        scope.getTravelex();
 
                         return $http.get(url).then(function (response) {
 

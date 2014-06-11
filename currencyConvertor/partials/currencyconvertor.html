@@ -18,6 +18,10 @@
             {{converted / 1.01 | number: 2}}
         </div>
         <div class="competition">You would only get&hellip;</div>
+        <div ng-show="from.name === 'GBP'">
+            <span ng-bind-html="to.entity"></span>
+            {{travelex | number: 2}} at Travelex or
+        </div>
         <div>
             <span ng-bind-html="to.entity"></span>
             {{converted / 1.05 | number: 2}} at the airport or
