@@ -1,0 +1,30 @@
+<div class="currency-widget-main">
+    <div class="title">Compare our rates</div>
+    <div class="settings">
+        <label>From
+            <select ng-model="from" ng-options="currency.name for currency in currencies"></select>
+        </label>
+        <label>To
+            <select ng-model="to" ng-options="currency.name for currency in currencies  | filter: filterTo"></select>
+        </label>
+        <div class="amount">
+            <span ng-bind-html="from.entity"></span> <input type="number" ng-model="amount" />
+        </div>
+    </div>
+    <div ng-class="{loading: loading}">
+        <div class="main-info">WeSwap gives you</div>
+        <div class="main-info">
+            <span ng-bind-html="to.entity"></span>
+            {{converted / 1.01 | number: 2}}
+        </div>
+        <div class="competition">You would only get&hellip;</div>
+        <div>
+            <span ng-bind-html="to.entity"></span>
+            {{converted / 1.05 | number: 2}} at the airport or
+        </div>
+        <div>
+            <span ng-bind-html="to.entity"></span>
+            {{converted / 1.11 | number: 2}} on the high street
+        </div>
+    </div>
+</div>
