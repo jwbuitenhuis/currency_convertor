@@ -316,6 +316,23 @@
 	},
 	"file_history":
 	[
+		"/Users/jw/dev/theafterward.com/web-theafterward/source/index.html.erb",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/lib/angular.js",
+		"/Users/jw/dev/zaaksysteem/root/js/components/angular/angular.js",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/index.html",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/src/currencyConvertor.js",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/scrape.pl",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/partials/currencyconvertor.html",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/style.css",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/karma.conf.js",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/lib/angular-mocks.js",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/spec/spec.js",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/src/app.js",
+		"/Users/jw/dev/josh_codetest/todo",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/currencyProxy.php",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/scape.pl",
+		"/Users/jw/dev/josh_codetest/currencyConvertor/currencyProxy.pl",
+		"/Users/jw/dev/josh_codetest/josh.sublime-project",
 		"/Users/jw/dev/hailo_codetest/README.txt",
 		"/Users/jw/dev/hailo_codetest/routeSanitizer/src/RouteSanitizer.js",
 		"/Users/jw/dev/hailo_codetest/routeSanitizer/style.css",
@@ -426,24 +443,7 @@
 		"/Users/jw/dev/zaaksysteem/frontend/js/src/nl/mintlab/utils/directives/zsScopeData.js",
 		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/layouts/common_header_includes_js.tt",
 		"/Users/jw/dev/zaaksysteem/root/html/compiled/sysin/links.html",
-		"/Users/jw/dev/zaaksysteem/frontend/js/src/nl/mintlab/utils/directives/zsIbanValidate.js",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/widgets/general/longtext.tt",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/css/forms.css",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/widgets/general/veldoptie_view.tt",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/beheer/object/product/import.tt",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/widgets/general/categorie.tt",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/js/zaaksysteem/ezra_object_import.js",
-		"/Users/jw/dev/zaaksysteem/lib/Zaaksysteem/Controller/Beheer/Zaaktypen.pm",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/beheer/zaaktypen/algemeen/edit.tt",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/beheer/import/inavigator/casetype.tt",
-		"/Users/jw/dev/zaaksysteem/root/tpl/zaak_v1/nl_NL/js/zaaktype_import.js",
-		"/Users/jw/dev/zaaksysteem/lib/Zaaksysteem/Backend/Sysin/Transaction/Component.pm",
-		"/Users/jw/dev/zaaksysteem/lib/Zaaksysteem/Backend/Sysin/Interface/Component.pm",
-		"/Users/jw/Desktop/testsuite.txt",
-		"/Users/jw/dev/zaaksysteem/lib/Zaaksysteem/Controller/Zaak/Action.pm",
-		"/Users/jw/dev/zaaksysteem/t/lib/TestFor/General/Backend/Email.pm",
-		"/Users/jw/dev/zaaksysteem/lib/Zaaksysteem/Controller/Beheer/Import.pm",
-		"/Users/jw/dev/zaaksysteem/lib/Zaaksysteem/ZTT/Template.pm"
+		"/Users/jw/dev/zaaksysteem/frontend/js/src/nl/mintlab/utils/directives/zsIbanValidate.js"
 	],
 	"find":
 	{
@@ -589,6 +589,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"function valueFn",
+			"valueFn",
+			"directive =",
+			"directive",
+			"function directive",
+			"$mydomain",
+			"$ckfile",
+			"$url",
 			"	",
 			"averagespeed",
 			"69180828186862",
@@ -708,15 +716,7 @@
 			"tag_regexp",
 			"fetch_strin",
 			"replace_kenmerk",
-			"replace_",
-			"replace_zaak_ken",
-			"_collect_zaaktype_attributes",
-			"string_fetchers",
-			"sub modifications",
-			"modifications",
-			"get_string_fetchers",
-			"new_from_thing",
-			"sub process_template"
+			"replace_"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -761,7 +761,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -796,6 +796,34 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"angul",
+				"currencyConvertor/lib/angular.js"
+			],
+			[
+				"rout",
+				"currencyConvertor/spec/RouteSanitizerSpec.js"
+			],
+			[
+				"karma",
+				"currencyConvertor/karma.conf.js"
+			],
+			[
+				"curren",
+				"currencyConvertor/currencyProxy.php"
+			],
+			[
+				"style.css",
+				"currencyConvertor/style.css"
+			],
+			[
+				"angular",
+				"currencyConvertor/lib/angular.js"
+			],
+			[
+				"app.",
+				"currencyConvertor/src/app.js"
+			],
 			[
 				"read",
 				"README.txt"
@@ -1279,34 +1307,6 @@
 			[
 				"product/existin",
 				"root/tpl/zaak_v1/nl_NL/beheer/object/product/existing.tt"
-			],
-			[
-				"controller/kennisb",
-				"lib/Zaaksysteem/Controller/Kennisbank/Product.pm"
-			],
-			[
-				"object/type/pro",
-				"t/lib/TestFor/General/Object/Types/Product.pm"
-			],
-			[
-				"general/cat",
-				"root/tpl/zaak_v1/nl_NL/widgets/general/categorie.tt"
-			],
-			[
-				"beheer/zaaktyen.",
-				"lib/Zaaksysteem/Controller/Beheer/Zaaktypen.pm"
-			],
-			[
-				"kennisbank/in",
-				"root/tpl/zaak_v1/nl_NL/kennisbank/index.tt"
-			],
-			[
-				"controller/object/im",
-				"lib/Zaaksysteem/Controller/Beheer/Object/Import.pm"
-			],
-			[
-				"general/cate",
-				"root/tpl/zaak_v1/nl_NL/widgets/general/categorie.tt"
 			]
 		],
 		"width": 0.0
@@ -1322,7 +1322,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 190.0,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true
 }
